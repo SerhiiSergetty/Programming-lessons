@@ -23,4 +23,4 @@
  6.2 https://www.youtube.com/watch?v=-VUnrPQw83U&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=12
 
 
-|Розбір GitHub https://www.loom.com/share/fef995a755aa4ff194ea3ade8c69e3ac?sid=38477eeb-cf6e-4e45-84d8-4f80b2f7e003|
+Розбір GitHub https://www.loom.com/share/fef995a755aa4ff194ea3ade8c69e3ac?sid=38477eeb-cf6e-4e45-84d8-4f80b2f7e003
