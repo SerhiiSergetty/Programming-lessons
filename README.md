@@ -1,27 +1,26 @@
-1.1  https://www.youtube.com/watch?v=AWmwPjcRuS0&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d
 
- 1.2 https://www.youtube.com/watch?v=7VEg7pDa900&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=2
- 
- 2.1 https://www.youtube.com/watch?v=iitntvyv7HE&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=3
- 
- 2.2 https://www.youtube.com/watch?v=CXn4Tjl9qp8&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=4
- 
- 3.1 https://www.youtube.com/watch?v=IuxNtfAVn30&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=5
- 
- 3.2 https://www.youtube.com/watch?v=KpXEeE_x1R4&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=6
- 
- 4.1 https://www.youtube.com/watch?v=E8WtksExcrM&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=7
- 
- 4.2 https://www.youtube.com/watch?v=Kjd7mLdzKfY&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=8
- 
- 5.1 https://www.youtube.com/watch?v=wNNExq-xbnA&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=9
- 
- 5.2 https://www.youtube.com/watch?v=vMsBYl1tP9k&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=10
- 
- 6.1 https://www.youtube.com/watch?v=UAY7GuIrDvk&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=11
- 
- 6.2 https://www.youtube.com/watch?v=-VUnrPQw83U&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=12
+Saved for later
 
 
-
- 
+Mentor FS GoIT
+:speech_balloon:  9:00 AM
+@channel Друзі, вітаю всіх зі стартом технічних занять.
+І ось трохи вступної інформації:
+ДЗ виконуємо строго згідно з ТЗ
+Перед здачею ДЗ (для тих, хто ще не дивився) - обов'язково подивитися матеріали по роботі з github (більше детальної їнформації - у прекурсі). Додатково надсилаю коротеньке відео, яке допоможе розібратися з GitHub: https://www.loom.com/share/fef995a755aa4ff194ea3ade8c69e3ac?sid=38477eeb-cf6e-4e45-84d8-4f80b2f7e003
+Обов'язково робити ре-сабміт (повторну відправку) виправленого завдання у слот , куди здавали вперше. Це важливо - просто в повідомленнях не надсилаємо, якщо вам буде необхідно перездати ДЗ! Ось відеоінструкція , як здавати дз https://www.youtube.com/watch?v=Thrs4C_9IjQ&ab_channel=GoIT
+Особливу увагу необхідно приділити семантичності коду та його валідності. З першого дня технічної частини валідатор – це ваш супутник. Зверніть увагу - валідувати ви можете як готовий сайт ( залитий на GitHub Pages) - https://validator.w3.org/ , так і просто скопіювавши готовий код з редактора - https://validator.w3.org/#validate_by_input Як вам буде зручніше.
+Основні моменти, на які варто звернути увагу під час виконання ДЗ:
+Логотип у хедері та футері – це посилання, яке огортає текстовий контент.
+Контакти у хедері (мейл та телефон) не розміщуються у тег nav
+"Order Service" – це кнопка.
+<h2> - це заголовок секції. Якщо його немає на макеті - ми у розмітку його додаємо. Приховувати вірно будемо за допомогою CSS (трохи пізніше за курсом). А підзаголовок колекції/ списку - це часто <h3>
+У розмітці макету немає тегів <figure> та <figcaption>
+Код відформатовано за допомогою prettier.
+Зайвий код та непотрібні коментарі відсутні
+Додаткові матеріали:
+Специфікація - https://developer.mozilla.org/ru/docs/Web/HTML
+Валідатор - https://validator.w3.org/
+Посібник з написання коду - https://codeguide.co/
+Emmet комбінації https://docs.emmet.io/cheat-sheet/
+Сервіс для перевірки на правильну вкладеність тегів https://caninclude.glitch.me/
