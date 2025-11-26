@@ -1,23 +1,75 @@
-1.1  https://www.youtube.com/watch?v=AWmwPjcRuS0&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d
+# 📌 Модуль 3.1: Блокова модель
 
- 1.2 https://www.youtube.com/watch?v=7VEg7pDa900&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=2
- 
- 2.1 https://www.youtube.com/watch?v=iitntvyv7HE&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=3
- 
- 2.2 https://www.youtube.com/watch?v=CXn4Tjl9qp8&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=4
- 
- 3.1 https://www.youtube.com/watch?v=IuxNtfAVn30&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=5
- 
- 3.2 https://www.youtube.com/watch?v=KpXEeE_x1R4&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=6
- 
- 4.1 https://www.youtube.com/watch?v=E8WtksExcrM&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=7
- 
- 4.2 https://www.youtube.com/watch?v=Kjd7mLdzKfY&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=8
- 
- 5.1 https://www.youtube.com/watch?v=wNNExq-xbnA&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=9
- 
- 5.2 https://www.youtube.com/watch?v=vMsBYl1tP9k&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=10
- 
- 6.1 https://www.youtube.com/watch?v=UAY7GuIrDvk&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=11
- 
- 6.2 https://www.youtube.com/watch?v=-VUnrPQw83U&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=12
+## 🔹 1. План заняття
+
+- Блокова модель елемента
+- Властивості `width` та `height`
+- Модель візуального форматування: `box-sizing`
+- Геометрія елемента
+- Рамки та заокруглені рамки
+- "Схлопування" і випадіння вертикальних маржинів
+- Горизонтальне центрування блокових елементів
+- Типи боксів: блокові, рядкові та рядково-блокові елементи. Властивість `display`
+
+---
+
+## 🔹 2. Box-model
+
+### Основні компоненти блокової моделі:
+
+- **content** — вміст елемента
+- **padding** — відступи всередині елемента
+- **border** — межа елемента
+- **margin** — відступи зовні елемента
+
+### Властивості для управління розмірами та відступами:
+
+- **top, right, bottom, left** — для позиціювання елемента
+- **width, height** — ширина та висота елемента (з максимальними та мінімальними значеннями)
+- **box-sizing: content-box | border-box | inherit** — управління розмірами елемента з урахуванням рамок і відступів
+
+### Стилізація рамок:
+- **border**: solid, dotted, dashed, double — типи рамок
+- **border-radius** - заокруглення кутів рамки
+
+### Оформлення переповнення:
+- **overflow**: visible | hidden | scroll | auto 
+
+| Значення  | Опис                                                                 |
+|-----------|----------------------------------------------------------------------|
+| `visible` | 🔹 **За замовчуванням.** Вміст виходить за межі контейнера і **видимий**. |
+| `hidden`  | 🔒 Вміст, що виходить за межі, **обрізається** і **не видно**.        |
+| `scroll`  | 📜 Завжди додає **прокрутку**, навіть якщо вона **не потрібна**.     |
+| `auto`    | ⚙️ Додає **прокрутку лише при потребі**, якщо вміст **не вміщується**. |
+
+### Типи елементів:
+- **display**: block, inline, inline-block, none — управління відображенням елементів
+
+### Центрування елементів на сторінці:
+- **margin**: margin: 0 auto; || margin-right: auto; margin-left: auto;
+
+### Налаштування "Гумові картинки":
+- display: block;
+- max-width: 100%;
+- height: auto;
+
+#### Альтернативний спосіб:
+- display: block;
+- max-width: 100%;
+- height: 100%;
+- object-fit: cover;
+
+### Приховування заголовків (visually-hidden):
+- position: absolute;
+- white-space: nowrap;
+- width: 1px;
+- height: 1px;
+- overflow: hidden;
+- border: 0;
+- padding: 0;
+- clip: rect(0 0 0 0);
+- clip-path: inset(50%);
+- margin: -1px;
+
+
+---
