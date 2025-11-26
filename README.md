@@ -33,5 +33,8 @@ Mentor FS GoIT
 9:00 AM
 
 @channel Всім привіт!!!
-Знаю, що зробити перший крок часом складно, тому направимо вас на реалізацію домашньої роботи!! Ось відео з розбором структури header:wink: https://www.loom.com/share/05e7818e710448508fa4bd070fba1f8e
-Посилання на репозиторій https://github.com/SergeyKorobka/goit-markup-example-01
+Знаю, що зробити перший крок часом складно, тому направимо вас на реалізацію домашньої роботи!! Ось відео з розбором структури header:wink:
+
+https://www.loom.com/share/05e7818e710448508fa4bd070fba1f8e
+Посилання на репозиторій 
+https://github.com/SergeyKorobka/goit-markup-example-01
