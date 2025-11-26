@@ -1,23 +1,65 @@
-1.1  https://www.youtube.com/watch?v=AWmwPjcRuS0&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d
 
- 1.2 https://www.youtube.com/watch?v=7VEg7pDa900&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=2
- 
- 2.1 https://www.youtube.com/watch?v=iitntvyv7HE&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=3
- 
- 2.2 https://www.youtube.com/watch?v=CXn4Tjl9qp8&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=4
- 
- 3.1 https://www.youtube.com/watch?v=IuxNtfAVn30&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=5
- 
- 3.2 https://www.youtube.com/watch?v=KpXEeE_x1R4&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=6
- 
- 4.1 https://www.youtube.com/watch?v=E8WtksExcrM&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=7
- 
- 4.2 https://www.youtube.com/watch?v=Kjd7mLdzKfY&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=8
- 
- 5.1 https://www.youtube.com/watch?v=wNNExq-xbnA&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=9
- 
- 5.2 https://www.youtube.com/watch?v=vMsBYl1tP9k&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=10
- 
- 6.1 https://www.youtube.com/watch?v=UAY7GuIrDvk&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=11
- 
- 6.2 https://www.youtube.com/watch?v=-VUnrPQw83U&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=12
+# 👩‍🏫 Адаптивний дизайн
+
+---
+
+> ⚠️ 96dpi — стандартна щільність. Для Retina/HiDPI — 192dpi (2x).
+> 1x img (96dpi), 2x (192pdi), 3x (288dpi)
+
+## 1. Адаптивна графіка
+
+Адаптивні зображення та фонові зображення, що змінюються залежно від роздільної здатності екрану.
+
+---
+
+## 2. Респонсивні зображення
+```html
+<img 
+  src="./images/kisspng-milk.png" 
+  srcset="./images/milk.png 1x, ./images/nuts.png 2x"
+  width="206" 
+  height="160" 
+  alt="Milk chocolate"
+>
+
+<picture>
+  <source 
+      media="(min-width: 1200px)" 
+      srcset="../images/nazar.png 1x, ../images/how-its-made.jpg 2x"
+  >
+  <source 
+      media="(min-width: 768px)" 
+      srcset="../images/olena.png 1x, ../images/how-its-made.jpg 2x"
+  >
+  <source 
+      media="(max-width: 767px)" 
+      srcset="../images/viktoria.png 1x, ../images/how-its-made.jpg 2x"
+  >
+  <img src="../images/semi-sweet.png" alt="semi-sweet">
+</picture>
+```
+
+---
+
+## 3. Фонові зображення
+```css
+@media (min-resolution: 192dpi) {
+  .box {
+    background-image: url('photo@2x.png');
+  }
+}
+
+@media screen and (min-width: 1200px) and (resolution: 192dpi) {
+  .box {
+    background-image: url('photo@2x.png');
+  }
+}
+
+.box {
+  background-image: image-set(
+    url('photo.png') 1x,
+    url('photo@2x.png') 2x
+  );
+  background-size: cover;
+}
+```
