@@ -37,4 +37,4 @@ Emmet комбінації https://docs.emmet.io/cheat-sheet/
 
 Сервіс для перевірки на правильну вкладеність тегів https://caninclude.glitch.me/
 
-Ось відео з розбором структури header https://www.loom.com/share/05e7818e710448508fa4bd070fba1f8e
+ ДЗ1 Ось відео з розбором структури header https://www.loom.com/share/05e7818e710448508fa4bd070fba1f8e
