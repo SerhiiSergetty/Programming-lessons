@@ -1,23 +1,43 @@
-1.1  https://www.youtube.com/watch?v=AWmwPjcRuS0&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d
+# 📌 Модуль 2.2: Основи CSS - Fonts
 
- 1.2 https://www.youtube.com/watch?v=7VEg7pDa900&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=2
- 
- 2.1 https://www.youtube.com/watch?v=iitntvyv7HE&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=3
- 
- 2.2 https://www.youtube.com/watch?v=CXn4Tjl9qp8&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=4
- 
- 3.1 https://www.youtube.com/watch?v=IuxNtfAVn30&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=5
- 
- 3.2 https://www.youtube.com/watch?v=KpXEeE_x1R4&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=6
- 
- 4.1 https://www.youtube.com/watch?v=E8WtksExcrM&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=7
- 
- 4.2 https://www.youtube.com/watch?v=Kjd7mLdzKfY&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=8
- 
- 5.1 https://www.youtube.com/watch?v=wNNExq-xbnA&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=9
- 
- 5.2 https://www.youtube.com/watch?v=vMsBYl1tP9k&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=10
- 
- 6.1 https://www.youtube.com/watch?v=UAY7GuIrDvk&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=11
- 
- 6.2 https://www.youtube.com/watch?v=-VUnrPQw83U&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=12
+## 🔹 1. Основи CSS
+- властивості оформлення тексту
+- сімейства шрифту serif та sans-serif
+- властивості оформлення шрифту
+- підключення зовнішніх шрифтів через GoogleFonts
+
+---
+
+## 🔹 2. Додаткові плагіни
+
+- Font Fascia       - Figma Plugin для визначення шрифтів
+- Inspect Styles    - Figma Plugin для для роботи з стилями
+- emmet cheat sheet -  https://docs.emmet.io/cheat-sheet
+
+
+- wrap element - виділяємо елемент або текст який хочемо обгорнути нажимаємо ctrl+shift+p -> пишемо wrap -> enter -> span -> enter -> виділений елемент обгорнемо тегом span
+
+## 🔹 3. Властивості оформелння тексту 
+
+- text-align
+- text-decoration
+- text-transform
+- line-height
+- letter-spacing
+- word-spacing
+- Сімейства шрифту serif та sans-serif
+
+- Властивості оформлення шрифту:  
+
+- font-size
+- font-weight
+- font-style
+- font-family
+
+## 🔹 4. CSS змінні
+
+| Опис                            | CSS код                                                      |
+|---------------------------------|--------------------------------------------------------------|
+| Оголошення змінних у `:root`    | `:root { --main-color: blue; --font-size: 16px; }`           |
+
+| Використання змінних у стилях   | `p { color: var(--main-color); font-size: var(--font-size); }` |
