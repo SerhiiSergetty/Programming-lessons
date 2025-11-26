@@ -23,18 +23,5 @@
  6.2 https://www.youtube.com/watch?v=-VUnrPQw83U&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=12
 
 
-Розбір GitHub https://www.loom.com/share/fef995a755aa4ff194ea3ade8c69e3ac?sid=38477eeb-cf6e-4e45-84d8-4f80b2f7e003
 
-Валідатор https://validator.w3.org/
-
-Специфікація - https://developer.mozilla.org/ru/docs/Web/HTML
-
-Валідатор - https://validator.w3.org/
-
-Посібник з написання коду - https://codeguide.co/
-
-Emmet комбінації https://docs.emmet.io/cheat-sheet/
-
-Сервіс для перевірки на правильну вкладеність тегів https://caninclude.glitch.me/
-
- ДЗ1 Ось відео з розбором структури header https://www.loom.com/share/05e7818e710448508fa4bd070fba1f8e
+ 
