@@ -26,3 +26,13 @@
 Розбір GitHub https://www.loom.com/share/fef995a755aa4ff194ea3ade8c69e3ac?sid=38477eeb-cf6e-4e45-84d8-4f80b2f7e003
 
 Валідатор https://validator.w3.org/
+
+Специфікація - https://developer.mozilla.org/ru/docs/Web/HTML
+
+Валідатор - https://validator.w3.org/
+
+Посібник з написання коду - https://codeguide.co/
+
+Emmet комбінації https://docs.emmet.io/cheat-sheet/
+
+Сервіс для перевірки на правильну вкладеність тегів https://caninclude.glitch.me/
