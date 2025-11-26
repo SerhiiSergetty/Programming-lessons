@@ -1,23 +1,49 @@
-1.1  https://www.youtube.com/watch?v=AWmwPjcRuS0&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d
+# 📘 Модуль 4.2: Декоративні елементи
 
- 1.2 https://www.youtube.com/watch?v=7VEg7pDa900&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=2
- 
- 2.1 https://www.youtube.com/watch?v=iitntvyv7HE&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=3
- 
- 2.2 https://www.youtube.com/watch?v=CXn4Tjl9qp8&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=4
- 
- 3.1 https://www.youtube.com/watch?v=IuxNtfAVn30&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=5
- 
- 3.2 https://www.youtube.com/watch?v=KpXEeE_x1R4&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=6
- 
- 4.1 https://www.youtube.com/watch?v=E8WtksExcrM&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=7
- 
- 4.2 https://www.youtube.com/watch?v=Kjd7mLdzKfY&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=8
- 
- 5.1 https://www.youtube.com/watch?v=wNNExq-xbnA&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=9
- 
- 5.2 https://www.youtube.com/watch?v=vMsBYl1tP9k&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=10
- 
- 6.1 https://www.youtube.com/watch?v=UAY7GuIrDvk&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=11
- 
- 6.2 https://www.youtube.com/watch?v=-VUnrPQw83U&list=PLqL-myzJpWPDj2TE5BGWZlwO4GN2g3D7d&index=12
+## 📍 Позиціонування
+
+- `position`: `static` | `relative` | `absolute` | `fixed` | `sticky`  
+- `z-index`
+
+---
+
+## 🎬 CSS-переходи
+
+- `transition-property`: `<властивість>` | `color`, `background-color`  
+- `transition-duration`: `<час>` | `2s` | `0.5s` | `2000ms` | `500ms`  
+- `transition-timing-function`: `<функція розподілу часу>` | `ease`, `linear`, `ease-in`, `ease-out`, `ease-in-out`  
+- `transition-delay`: `<затримка>`
+
+- `transition`: `[property] [duration] [timing-function] [delay]`  
+- `transition`: `background-color 500ms linear, transform 500ms ease-in-out;`
+
+### Властивість `transition-timing-function`
+
+- `ease` — перехід починається повільно, швидко прискорюється, а потім знову сповільнюється в кінці.  
+- `linear` — перехід має рівномірну швидкість.  
+- `ease-in` — починається повільно, швидкість переходу збільшується до повного завершення переходу.  
+- `ease-out` — починається швидко, уповільнюється протягом переходу.  
+- `ease-in-out` — починається повільно, прискорюється, а потім знову сповільнюється.
+
+---
+
+## 🌀 2D-трансформації
+
+- `transform`: `none` | `<тип трансформації>` `<тип трансформації>` ...  
+- `transform: scale(1.15)` — маштабування  
+- `transform: rotate(45deg)` — прокручування  
+- `transform: translate(100px, 200px)` — зміщення  
+- `transform: translate(-50%, -50%)` — центрування елемента  
+- `transform: skew(30deg)` — викривлення
+
+---
+
+## 🧙‍♀️ Псевдоелементи
+
+Використання:  
+`.box::before`, `.box::after`, `.box:hover::before`
+
+---
+
+## 🔹 Додаткові ресурси 📚
+- 🖼 [cubic-bezier](https://cubic-bezier.com/#.17,.67,.83,.67) – сервіс генератор анімації   
